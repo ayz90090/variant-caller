@@ -25,10 +25,14 @@
 <li> Runs Wgsim (make sure “conda install samtools::wgsim”) </li>	
 <li> Outputs two fastq files into your current directory </li>
 
-<h4> Pipeline bash  </h4>
+<h4> Bash - Pipeline  </h4>
 <p> How to use: </p>
 <ul> 
 <li> Receive fasta, fastq files (in total 3 variables) </li>
 <li> Output bam file for vcf calling (snippy and Bcftools per genome) </li>
 </ul>
 
+<h4> Bash - Merge VCFs (bcftools merge) </h4>
+<ul> 
+<li> Run from terminal with names of both VCF files to merge (make sure they are in the current directory as snippy saves output to new folder) </li>
+</ul>
